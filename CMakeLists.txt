@@ -14,6 +14,7 @@ set(DATA_DIR_RELATIVE "./${DATA_DIR_NAME}")
 add_executable(Class_Management_System
         src/main.c
         src/student.c
+        src/ui.c
 )
 
 # 头文件包含
