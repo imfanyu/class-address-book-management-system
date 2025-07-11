@@ -220,7 +220,8 @@ void show_search_student_ui(const Class *cls) {
 }
 
 void show_main_menu() {
-    printf("\n班级通讯录管理系统\n");
+    printf("\n======================================================\n");
+    printf("当前正在管理班级：%s\n",current_class.class_name);
     printf("1. 添加学生\n");
     printf("2. 删除学生\n");
     printf("3. 修改学生信息\n");
